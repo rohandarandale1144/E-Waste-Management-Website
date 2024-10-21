@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+nav {
+    background: #3498db;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.impact-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.impact-page h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.impact-page h2 {
+    color: #2980b9;
+}
+
+.impact-page p {
+    margin: 15px 0;
+    color: #34495e;
+    text-align: justify;
+}
+
+.impact-page ul {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.impact-page ul li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #3498db;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
